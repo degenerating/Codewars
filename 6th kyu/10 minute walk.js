@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/54da539698b8a2ad76000228
+
 function isValidWalk(walk) {
 
     //check if walk fulfills 10 minute requirement
