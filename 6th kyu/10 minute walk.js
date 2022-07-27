@@ -1,7 +1,7 @@
 //https://www.codewars.com/kata/54da539698b8a2ad76000228
 
 function isValidWalk(walk) {
-
+    let result
     //check if walk fulfills 10 minute requirement
     if (walk.length != 10) {
         return false
