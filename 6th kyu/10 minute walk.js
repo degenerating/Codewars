@@ -1,6 +1,6 @@
 function isValidWalk(walk) {
 
-    let walkvar
+    let walkvat
 
     //check if walk fulfills 10 minute requirement
     if (walk.length != 10) {
