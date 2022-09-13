@@ -17,6 +17,7 @@ var maxSequence = function(arr){
         let localsum = 0
         for (let x = i; x < arr.length; x++) {
             localsum += arr[x]
+            console.log(i)
             console.log(`x:${x} i:${i} localsum:${localsum}`)
             umax(localsum)
         }
