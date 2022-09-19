@@ -22,7 +22,7 @@ var maxSequence = function(arr){
             umax(localsum)
         }
     }
-    console.log(max)
+    console.log(`result: ${max}`)
     return max
   }
 
