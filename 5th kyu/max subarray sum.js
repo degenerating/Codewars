@@ -14,6 +14,7 @@ var maxSequence = function(arr){
         }
     }
     for (let i = 0; i < arr.length; i++) {
+        let maxsum = 0
         let localsum = 0
         for (let x = i; x < arr.length; x++) {
             localsum += arr[x]
